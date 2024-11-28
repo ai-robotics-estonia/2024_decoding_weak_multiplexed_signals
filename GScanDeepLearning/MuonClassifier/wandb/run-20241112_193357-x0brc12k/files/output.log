@@ -1,0 +1,25 @@
+Epoch 1/100:   0%|                                                                                                                                         | 0/339 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/ali/GScan/GScanDeepLearning/MuonClassifier/train.py", line 69, in <module>
+    output = model(front, side).squeeze(1)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ali/GScan/GScanDeepLearning/MuonClassifier/model.py", line 56, in forward
+    features_front = self.feature_extractor(front)  # Shape: (batch_size, 256, H, W)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 774, in forward
+    return F.leaky_relu(input, self.negative_slope, self.inplace)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/nn/functional.py", line 1646, in leaky_relu
+    result = torch._C._nn.leaky_relu(input, negative_slope)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 148.00 MiB. GPU 0 has a total capacty of 3.81 GiB of which 30.19 MiB is free. Including non-PyTorch memory, this process has 3.77 GiB memory in use. Of the allocated memory 3.58 GiB is allocated by PyTorch, and 101.52 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

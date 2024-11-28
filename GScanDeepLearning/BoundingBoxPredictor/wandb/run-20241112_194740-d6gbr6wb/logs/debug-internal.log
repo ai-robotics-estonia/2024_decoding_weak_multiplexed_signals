@@ -1,0 +1,22 @@
+{"time":"2024-11-12T19:47:40.719089239+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-11-12T19:47:40.719112093+02:00","level":"INFO","msg":"created symlink","path":"/home/ali/GScan/GScanDeepLearning/BoundingBoxPredictor/wandb/run-20241112_194740-d6gbr6wb/logs/debug-core.log"}
+{"time":"2024-11-12T19:47:40.719182236+02:00","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-11-12T19:47:40.719190742+02:00","level":"INFO","msg":"created symlink","path":"/home/ali/GScan/GScanDeepLearning/BoundingBoxPredictor/wandb/run-20241112_194740-d6gbr6wb/logs/debug-core.log"}
+{"time":"2024-11-12T19:47:40.720051959+02:00","level":"INFO","msg":"created new stream","id":"d6gbr6wb"}
+{"time":"2024-11-12T19:47:40.720062459+02:00","level":"INFO","msg":"stream: started","id":"d6gbr6wb"}
+{"time":"2024-11-12T19:47:40.720075053+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"d6gbr6wb"}}
+{"time":"2024-11-12T19:47:40.72007879+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"d6gbr6wb"}}
+{"time":"2024-11-12T19:47:40.720069943+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"d6gbr6wb"}}
+{"time":"2024-11-12T19:47:40.969122406+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-12T19:47:40.969968224+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-12T19:47:40.970162453+02:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2024-11-12T19:53:59.544794551+02:00","level":"INFO","msg":"stream: closing","id":"d6gbr6wb"}
+{"time":"2024-11-12T19:53:59.544819919+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-12T19:53:59.544902576+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-12T19:53:59.799048362+02:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-12T19:53:59.799071285+02:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-12T19:53:59.799078339+02:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-12T19:54:00.573425194+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"d6gbr6wb"}}
+{"time":"2024-11-12T19:54:00.573509784+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"d6gbr6wb"}}
+{"time":"2024-11-12T19:54:00.57350242+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"d6gbr6wb"}}
+{"time":"2024-11-12T19:54:00.573688714+02:00","level":"INFO","msg":"stream: closed","id":"d6gbr6wb"}

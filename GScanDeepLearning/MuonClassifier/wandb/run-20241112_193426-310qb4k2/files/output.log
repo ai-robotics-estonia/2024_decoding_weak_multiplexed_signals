@@ -1,0 +1,5 @@
+Epoch 1/10:   0%|                                                                                                                                         | 0/1354 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/ali/GScan/GScanDeepLearning/MuonClassifier/train.py", line 80, in <module>
+    train_iou=eval(output,label)
+TypeError: globals must be a real dict; try eval(expr, {}, mapping)

@@ -1,0 +1,12 @@
+Epoch 1/10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1171/1171 [03:00<00:00,  6.48it/s]
+Epoch 1/10: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 293/293 [00:16<00:00, 18.00it/s]
+Traceback (most recent call last):
+  File "/home/ali/GScan/GScanDeepLearning/MuonClassifier/train.py", line 118, in <module>
+    torch.save(best_val.state_dict(), filename)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/serialization.py", line 618, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/serialization.py", line 492, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/home/ali/.miniforge3/envs/pip_only/lib/python3.8/site-packages/torch/serialization.py", line 463, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: Parent directory weights does not exist.
