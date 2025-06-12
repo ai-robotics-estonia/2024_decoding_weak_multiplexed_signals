@@ -1,10 +1,10 @@
 # Detecting Fiber Generating Signal Using Machine Learning
 
 ## Summary
-| Company Name | GSCAN ([https://website.link](https://www.gscan.eu/)) |
+| Company Name | GSCAN ([https://www.gscan.eu/](https://www.gscan.eu/)) |
 | :--- | :--- |
-| Development Team Lead Name | [Dr. John Smith](https://profile.link) |
-| Development Team Lead E-mail | [email@example.com](mailto:email@example.com) |
+| Development Team Lead Name | [Kallol Roy]([https://profile.link](https://kallolroy.me/)) |
+| Development Team Lead E-mail | [kallol.roy@ut.ee](mailto:kallol.roy@ut.ee) |
 | Duration of the Demonstration Project | month/year-month/year |
 | Final Report | [Example_report.pdf](https://github.com/ai-robotics-estonia/_project_template_/files/13800685/IC-One-Page-Project-Status-Report-10673_PDF.pdf) |
 
@@ -14,15 +14,18 @@
 
 # Description
 ## Objectives of the Demonstration Project
-*Please describe your project objectives in detail.*
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The challenge of the project is to improve the resolution of the scanning technology based on Cosmic Muon Rays. We developed a new approach to the detection of muon hits from noisy measurements and the recovery of missing muon hits. This approach aims at fast detection of muon rays and generating predictions for missing data points by utilizing contemporary AI technologies, including advanced pattern recognition capabilities of neural networks. The muon detection algorithm implementation combines MATLAB scripts, which are used as generators of ground truth data for learning a neural network-based muon detection system implemented in Python. 
 
 ## Activities and Results of the Demonstration Project
 ### Challenge
-*Please describe challenge addressed (i.e, whether and how the initial challenge was changed during the project, for which investment the demonstration project was provided).*
+The algorithm presented in the report reliably extracts the expected number of muons passing through the system. The activities which lead to achieving high efficiency of the algorithm are the following:
+- Preprocessing. The goal is to extract useful data from the noisy experimental data
+- The development of a list-based quantization procedure, which takes into account the statistical model of the sensors used in the system.
+- Generation of clouds of ray candidates and using fast approximation techniques for generating ground truth measurements.
+- Statistical analysis of the muon ray detection and formalization of the detection algorithm as an optimization problem
+- Comparative analysis of AI optimization algorithms, including surrogate optimization, genetic algorithm, and particle swarm algorithm
+- Developing and implementing of neural network-based machine learning approximation methodology using the PyTorch framework. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Data Sources
 *Please describe which data was used for the technological solution.*  
