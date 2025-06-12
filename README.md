@@ -35,9 +35,17 @@ The demultiplexing task with a linear search algorithm is computationally expens
 
 
 ### Technological Results
-*Please describe the results of testing and validating the technological solution.*
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The algorithm presented in the report reliably extracts the expected number of muons
+passing through the system. Its complexity allows its almost real-time implementation in
+Matlab. The main results which demonstrate the high efficiency of the suggested
+approach:
+- The number of detected muon rays is very close to the theoretical limit
+determined by the empirically estimated intensity of the cosmic rays passing
+through the tomograph.
+- The mathematical analysis of the detection model allows for estimating the
+probability of generating a false ray and the probability of losing a muon ray.
+- Testing of the algorithm shows that the parameters of the system well match the
+estimated efficiency.
 
 ### Technical Architecture
 The main computational load is concentrated in “findline” routines where the extracted measured data are approximated by muon rays. For these routines, AI and ML approaches allow for improving muon detection performances.
@@ -59,10 +67,14 @@ All programs during the data processing output informative statistical data demo
 
 
 ### Future Potential of the Technical Solution
-*Please describe the potential areas for future use of the technical solution.*
-- [Use case 1],
-- [Use case 2],
-- etc... .
+The developed technology can be used for scanning the objects in the tomographs which use other physical principles.
+New horizons of the developed technology:
+- Combining the detection algorithm with the muon tomography image-generating
+algorithms.
+- The technology can be easily scaled to the cosmic rays tomographs with other
+geometric parameters and different sensors.
+- This detection algorithm along with image reconstruction can be used for civil
+engineering construction, medical imaging and other related technologies.
 
 ### Lessons Learned
 The initial research problem was extended during the research activity. In addition to the muon detection procedure, a thorough mathematical analysis of detection reliability was conducted, validating the algorithm's efficiency and correctness. 
