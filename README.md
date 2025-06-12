@@ -9,6 +9,8 @@
 
 
 # Description
+The demultiplexing task with a linear search algorithm is computationally expensive. The use of artificial intelligence (AI) is to make the search algorithm faster by constraining the line search. The objective function is the detection of the most probable area of the muon hits as a maximization criterion. Our AI model thus gives the prediction of the (bounding box) of the muon trajectory. The muon trajectory hits are at the corners of the bounding boxes (polytopes) if solved by linear programming. As our multiplexing tasks are approximated and solved internally as an LP method, the solutions lie close to the corners of the bounding box. The corners bounding box coordinates are given as a solution to the classical linear search method. The classical linear search is done on the constrained area of the bounding box and not on the whole muon detector plates. This fastens the classical linear search method augmented by artificial intelligence.
+
 ## Objectives of the Demonstration Project
 The challenge of the project is to improve the resolution of the scanning technology based on Cosmic Muon Rays. We developed a new approach to the detection of muon hits from noisy measurements and the recovery of missing muon hits. This approach aims at fast detection of muon rays and generating predictions for missing data points by utilizing contemporary AI technologies, including advanced pattern recognition capabilities of neural networks. The muon detection algorithm implementation combines MATLAB scripts, which are used as generators of ground truth data for learning a neural network-based muon detection system implemented in Python. 
 
@@ -27,8 +29,7 @@ The algorithm presented in the report reliably extracts the expected number of m
 The research input data is a large database of measurements produced by the muon tomography sensors. 
 
 ### AI Technologies
-The demultiplexing task with a linear search algorithm is computationally expensive. The use of artificial intelligence (AI) is to make the search algorithm faster by constraining the line search. Internally our machine learning model solves the problem as a linear programming (LP) method with constraints coming from muon physics. The solving of the linear programming (LP) is done by convolutional filters of our model. The convolutional filters of our AI model are trained to solve the problem in linear programming. The objective function is the detection of the most probable area of the muon hits as a maximization criterion. Our AI model thus gives the prediction of the (bounding box) of the muon trajectory. The muon trajectory hits are at the corners of the bounding boxes (polytopes) if solved by linear programming. As our multiplexing tasks are approximated and solved internally as an LP method, the solutions lie close to the corners of the bounding box. The corners bounding box coordinates are given as a solution to the classical linear search method. The classical linear search is done on the constrained area of the bounding box and not on the whole muon detector plates. This fastens the classical linear search method augmented by artificial intelligence. 
-
+Internally our machine learning model solves the problem as a linear programming (LP) method with constraints coming from muon physics. The solving of the linear programming (LP) is done by convolutional filters of our model. The convolutional filters of our AI model are trained to solve the problem in linear programming.
 
 ### Technological Results
 The algorithm presented in the report reliably extracts the expected number of muons
