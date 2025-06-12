@@ -5,12 +5,8 @@
 | :--- | :--- |
 | Development Team Lead Name | [Kallol Roy]([https://profile.link](https://kallolroy.me/)) |
 | Development Team Lead E-mail | [kallol.roy@ut.ee](mailto:kallol.roy@ut.ee) |
-| Duration of the Demonstration Project | month/year-month/year |
-| Final Report | [Example_report.pdf](https://github.com/ai-robotics-estonia/_project_template_/files/13800685/IC-One-Page-Project-Status-Report-10673_PDF.pdf) |
 
-### Each project has an alternative for documentation
-1. Fill in the [description](#description) directly in the README below *OR*;
-2. make a [custom agreement with the AIRE team](#custom-agreement-with-the-AIRE-team).
+
 
 # Description
 ## Objectives of the Demonstration Project
