@@ -47,14 +47,14 @@ The main computational load is concentrated in “findline” routines where the
 
 ### User Interface 
 The software package developed in the project includes: 
--Standalone executable program for producing a file of the muon rays coordinates from the given input database of the tomograph measurements. 
--Matlab script for generating output data for use as a ground truth for AI and ML-based technologies. P
--Python software: The AI algorithm is implemented in Python language and uses Pytorch and Tensorflow environment. Additionally, we have used a Fastai library from Meta. The data preprocessing is done through scikit-learn packages. 
+- Standalone executable program for producing a file of the muon rays coordinates from the given input database of the tomograph measurements. 
+- Matlab script for generating output data for use as a ground truth for AI and ML-based technologies. P
+- Python software: The AI algorithm is implemented in Python language and uses Pytorch and Tensorflow environment. Additionally, we have used a Fastai library from Meta. The data preprocessing is done through scikit-learn packages. 
 
 All programs during the data processing output informative statistical data demonstrating the properties of the particular data stream and the efficiency of its analysis. The goals of intermediate data output are: 
--Control and validation. 
--Search for scenarios of potential inefficiency. 
--Finding additional possibilities for optimization. 
+- Control and validation. 
+- Search for scenarios of potential inefficiency. 
+- Finding additional possibilities for optimization. 
 
 
 
