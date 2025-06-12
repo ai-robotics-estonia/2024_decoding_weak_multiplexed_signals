@@ -28,16 +28,11 @@ The algorithm presented in the report reliably extracts the expected number of m
 
 
 ### Data Sources
-*Please describe which data was used for the technological solution.*  
-- [Source 1],
-- [Source 2],
-- etc... .
+The research input data is a large database of measurements produced by the muon tomography sensors. 
 
 ### AI Technologies
-*Please describe and justify the use of selected AI technologies.*
-- [AI technology 1],
-- [AI technology 2],
-- etc... .
+The demultiplexing task with a linear search algorithm is computationally expensive. The use of artificial intelligence (AI) is to make the search algorithm faster by constraining the line search. Internally our machine learning model solves the problem as a linear programming (LP) method with constraints coming from muon physics. The solving of the linear programming (LP) is done by convolutional filters of our model. The convolutional filters of our AI model are trained to solve the problem in linear programming. The objective function is the detection of the most probable area of the muon hits as a maximization criterion. Our AI model thus gives the prediction of the (bounding box) of the muon trajectory. The muon trajectory hits are at the corners of the bounding boxes (polytopes) if solved by linear programming. As our multiplexing tasks are approximated and solved internally as an LP method, the solutions lie close to the corners of the bounding box. The corners bounding box coordinates are given as a solution to the classical linear search method. The classical linear search is done on the constrained area of the bounding box and not on the whole muon detector plates. This fastens the classical linear search method augmented by artificial intelligence. 
+
 
 ### Technological Results
 *Please describe the results of testing and validating the technological solution.*
@@ -54,9 +49,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 ### User Interface 
-*Please describe the details about the user interface(i.e, how does the client 'see' the technical result, whether a separate user interface was developed, command line script was developed, was it validated as an experiment, can the results be seen in ERP or are they integrated into work process)*
+The software package developed in the project includes: 
+-Standalone executable program for producing a file of the muon rays coordinates from the given input database of the tomograph measurements. 
+-Matlab script for generating output data for use as a ground truth for AI and ML-based technologies. P
+-Python software: The AI algorithm is implemented in Python language and uses Pytorch and Tensorflow environment. Additionally, we have used a Fastai library from Meta. The data preprocessing is done through scikit-learn packages. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+All programs during the data processing output informative statistical data demonstrating the properties of the particular data stream and the efficiency of its analysis. The goals of intermediate data output are: 
+-Control and validation. 
+-Search for scenarios of potential inefficiency. 
+-Finding additional possibilities for optimization. 
+
+
 
 ### Future Potential of the Technical Solution
 *Please describe the potential areas for future use of the technical solution.*
@@ -65,11 +68,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - etc... .
 
 ### Lessons Learned
-*Please describe the lessons learned (i.e. assessment whether the technological solution actually solved the initial challenge).*
+The initial research problem was extended during the research activity. In addition to the muon detection procedure, a thorough mathematical analysis of detection reliability was conducted, validating the algorithm's efficiency and correctness. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-# Custom agreement with the AIRE team
-*If you have a unique project or specific requirements that don't fit neatly into the Docker file or description template options, we welcome custom agreements with our AIRE team. This option allows flexibility in collaborating with us to ensure your project's needs are met effectively.*
-
-*To explore this option, please contact our demonstration projects service manager via katre.eljas@taltech.ee with the subject line "Demonstration Project Custom Agreement Request - [Your Project Name]." In your email, briefly describe your project and your specific documentation or collaboration needs. Our team will promptly respond to initiate a conversation about tailoring a solution that aligns with your project goals.*
