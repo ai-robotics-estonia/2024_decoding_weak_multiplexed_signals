@@ -40,12 +40,9 @@ The demultiplexing task with a linear search algorithm is computationally expens
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Technical Architecture
-*Please describe the technical architecture (e.g, presented graphically, where the technical solution integration with the existing system can also be seen).*
-- [Component 1],
-- [Component 2], 
-- etc... .
+The main computational load is concentrated in “findline” routines where the extracted measured data are approximated by muon rays. For these routines, AI and ML approaches allow for improving muon detection performances.
 
-![backend-architecture](https://github.com/ai-robotics-estonia/_project_template_/assets/15941300/6d405b21-3454-4bd3-9de5-d4daad7ac5b7)
+![![image](https://github.com/user-attachments/assets/ad69d4d2-8df2-4f44-a105-547de0d7612c)
 
 
 ### User Interface 
