@@ -1,9 +1,7 @@
-*This is a template repository for this organization. Start by replacing the placeholder for the project name with its actual title.*
-
-# [Demonstration Project title]
+# Detecting Fiber Generating Signal Using Machine Learning
 
 ## Summary
-| Company Name | [Company](https://website.link) |
+| Company Name | GSCAN ([https://website.link](https://www.gscan.eu/)) |
 | :--- | :--- |
 | Development Team Lead Name | [Dr. John Smith](https://profile.link) |
 | Development Team Lead E-mail | [email@example.com](mailto:email@example.com) |
