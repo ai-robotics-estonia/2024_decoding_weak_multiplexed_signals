@@ -50,7 +50,7 @@ estimated efficiency.
 ### Technical Architecture
 The main computational load is concentrated in “findline” routines where the extracted measured data are approximated by muon rays. For these routines, AI and ML approaches allow for improving muon detection performances.
 
-![![image](https://github.com/user-attachments/assets/ad69d4d2-8df2-4f44-a105-547de0d7612c)
+![image](https://github.com/user-attachments/assets/ad69d4d2-8df2-4f44-a105-547de0d7612c)
 
 
 ### User Interface 
